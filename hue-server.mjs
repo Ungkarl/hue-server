@@ -3,9 +3,6 @@ import cors from 'cors';
 import mongoose from 'mongoose';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import cookieParser from 'cookieparser';
-import crypto from 'crypto';
-import session from 'express-session';
 
 //Import functions
 import attemptLogin from './attemptLogin.mjs';
